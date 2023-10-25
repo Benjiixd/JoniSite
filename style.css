@@ -1,0 +1,44 @@
+p {
+    font-family: "Courier New", Courier, monospace;
+}
+
+header {
+    padding: 10px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+    padding: 10px;
+    border: 10px;
+    border-color: black;
+    background-color: blueviolet;
+}
+
+nav a:hover {
+    background-color: blue;
+}
+
+.pagetitle {
+    color: aliceblue;
+    width: 35%;
+    margin: auto;
+    text-align: center;
+}
+
+#titleback1 {
+    background-image: url(/pictures/binarycode.jpg);
+}
+
+#titleback2 {
+    background-image: url(/pictures/water.jpg);
+}
+
+#titleback3 {
+    background-image: url(/pictures/Artist.png);
+}
