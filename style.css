@@ -1,44 +1,67 @@
-p {
-    font-family: "Courier New", Courier, monospace;
+#page {
+    display: grid;
+    width: 100%;
+    height: 250px;
+    grid-template-areas:
+        "icon nav"
+        "welcome welcome"
+        "about1 aboutx"
+        "abouty about2 "
+        "booking booking"
+        "person1 person2"
+        "contact contact"
+        "foot foot";
+    grid-template-rows: 100px 700px 300px 300px 700px 700px 400px 200px;
+    grid-template-columns: 1fr 1fr;
 }
 
-header {
-    padding: 10px;
+#page>nav {
+    grid-area: nav;
+    background-color: #ffa08c;
 }
 
-nav {
-    text-align: center;
+.icon {
+    grid-area: icon;
+    background-color: purple;
 }
 
-nav a {
-    text-decoration: none;
-    color: white;
-    margin: 0 20px;
-    padding: 10px;
-    border: 10px;
-    border-color: black;
-    background-color: blueviolet;
+.welcome {
+    grid-area: welcome;
+    background-color: #ffff64;
 }
 
-nav a:hover {
+.about1 {
+    grid-area: about1;
     background-color: blue;
 }
 
-.pagetitle {
-    color: aliceblue;
-    width: 35%;
-    margin: auto;
-    text-align: center;
+.about2 {
+    grid-area: about2;
+    background-color: blue;
 }
 
-#titleback1 {
-    background-image: url(/pictures/binarycode.jpg);
+.booking {
+    grid-area: booking;
+    background-color: brown;
 }
 
-#titleback2 {
-    background-image: url(/pictures/water.jpg);
+.person1 {
+    grid-area: person1;
+    background-color: lightblue;
 }
 
-#titleback3 {
-    background-image: url(/pictures/Artist.png);
+.person2 {
+    grid-area: person2;
+    background-color: gold;
 }
+
+.contact {
+    grid-area: contact;
+    background-color: green;
+}
+
+#page>footer {
+    grid-area: foot;
+    background-color: #8cffa0;
+}
+
