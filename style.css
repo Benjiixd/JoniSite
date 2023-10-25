@@ -18,6 +18,12 @@
 #page>nav {
     grid-area: nav;
     background-color: #ffa08c;
+    text-align: right;
+
+}
+
+nav.a{
+    padding: 100%;
 }
 
 .icon {
