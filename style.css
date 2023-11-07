@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 #page {
     display: grid;
     width: 100%;
@@ -5,13 +9,13 @@
     grid-template-areas:
         "icon icon"
         "welcome1 welcome2"
-        "about1 aboutx"
-        "abouty about2 "
-        "booking booking"
+        "aboutx about1"
+        "about2 abouty "
+        "booking1 booking2"
         "person1 person2"
         "contact contact"
-        "foot foot";
-    grid-template-rows: 100px 700px 300px 300px 700px 700px 400px 200px;
+        "foot1 foot2";
+    grid-template-rows: 150px 700px 300px 300px 700px 700px 400px 150px;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -55,45 +59,100 @@ ul{
 .welcome {
     grid-area: welcome1;
     text-align: center;
+
+    
 }
 
-.welcome h1, .welcome h3, .welcome p{
+.welcome h1, .welcome h3, .welcome p, .welcome h2{
     color:white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.about1 p{
+    color:black
+}
+
+.deerimg{
+    display: flex;
+    grid-area: welcome2;
+    align-items: center;
+    justify-content: center;
+}
+
 .about1 {
     grid-area: about1;
-    background-color: blue;
+    text-align: center;
+}
+.aboutx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .about2 {
     grid-area: about2;
-    background-color: blue;
+    text-align: center;
 }
 
-.booking {
-    grid-area: booking;
-    background-color: brown;
+.abouty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.booking1 {
+    background-color: gainsboro;
+    grid-area: booking1;
+    
+}
+.booking2 {
+    grid-area: booking2;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .person1 {
+    display: flex;
+    flex-direction: column;
     grid-area: person1;
+    align-items: center;
+    justify-content: center;
     background-color: lightblue;
 }
 
 .person2 {
+    display: flex;
+    flex-direction: column;
     grid-area: person2;
-    background-color: gold;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
 }
 
 .contact {
     grid-area: contact;
-    background-color: green;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
 
-#page>footer {
-    grid-area: foot;
-    background-color: #8cffa0;
+.footer1 {
+    grid-area: foot1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    border-right: solid 1px white;
+}
+.footer2 {
+    grid-area: foot2;
+    background-color: blue;
+    border-left: solid 1px white;
+    
 }
 
