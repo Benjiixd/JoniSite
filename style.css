@@ -2,6 +2,26 @@ html {
   scroll-behavior: smooth;
 }
 
+p, h1, h2, h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-size: 150%;
+}
+
+h1{
+    font-size: 300%;
+}
+
+h2{
+    font-size: 250%;
+}
+
+h3{
+    font-size: 200%;
+}
+
 #page {
     display: grid;
     width: 100%;
@@ -15,7 +35,7 @@ html {
         "person1 person2"
         "contact contact"
         "foot1 foot2";
-    grid-template-rows: 150px 700px 300px 300px 700px 700px 400px 150px;
+    grid-template-rows: 150px 700px 300px 300px 700px 700px 600px 150px;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -133,13 +153,49 @@ ul{
 
 .contact {
     grid-area: contact;
-    background-color: lightblue;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    background-image: url("Background.jpg");
+    text-align: center;
 }
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%; /* Adjust as necessary */
+}
+
+.contact input[type="text"],
+.contact textarea {
+  width: 90%; /* Adjust the width as needed */
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* Slight shadow for depth */
+}
+
+.contact input[type="submit"] {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  background-color: #007BFF; /* Bootstrap primary blue, you can change it */
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
+.contact input[type="submit"]:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
 
 .footer1 {
     grid-area: foot1;
@@ -156,3 +212,32 @@ ul{
     
 }
 
+button{
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  background-color: #007BFF; /* Bootstrap primary blue, you can change it */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+#bookBtn{
+    padding: 20px 250px;
+  margin-top: 10px;
+  border: solid #0056b3 2px;
+  border-radius: 35px; /* Rounded corners */
+  background-color: gainsboro; /* Bootstrap primary blue, you can change it */
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#bookBtn:hover{
+    background-color: #0056b3; /* Darker blue on hover */
+}
