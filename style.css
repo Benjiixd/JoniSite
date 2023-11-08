@@ -36,11 +36,19 @@ h3{
 .highlight2{
     color:#46C5F8;
 }
-.booking1 h3{
+.booking1 h3, .booking1 h2, .booking1 p{
     color:white;
-    font-size: 150%;
+    
 }
 
+.booking1 h3{
+    font-size: 150%;
+    
+}
+
+.booking1 h2{
+    color:black;
+}
 #page {
     display: grid;
     width: 100%;
@@ -76,7 +84,7 @@ h3{
 li a{
     text-decoration: none;
     color: white;
-    font-size: 150%;
+    font-size: 200%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-right: 10px;
 }
@@ -123,11 +131,13 @@ ul{
     text-align: right;
     padding-right: 100px;
     padding-top: 85px;
+    background-color: white;
 }
 .aboutx{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
 }
 
 .about2 {
@@ -135,24 +145,27 @@ ul{
     text-align: left;
     padding-left: 100px;
     padding-top: 85px;
+    background-color: white;
 }
 
 .abouty{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
 }
 
 .booking1 {
-    background-color: #5299AC;
+    background-image: url(Gradient3-1.jpg);
     grid-area: booking1;
     padding-top: 180px;
     padding-left: 100px;
+    background-color: white;
     
 }
 .booking2 {
     grid-area: booking2;
-    background-color: #5299AC;
+    background-image: url(Gradient3-2.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -165,7 +178,7 @@ ul{
     grid-area: person1;
     align-items: center;
     justify-content: center;
-    background-image: url('Gradient2.jpg');
+    background-color: white;
 }
 
 .person2 {
@@ -174,7 +187,7 @@ ul{
     grid-area: person2;
     align-items: center;
     justify-content: center;
-    background-image: url('Gradient2.jpg');
+    background-color: white;
 }
 
 .contact {
@@ -193,6 +206,7 @@ ul{
   align-items: center;
   justify-content: center;
   width: 70%; /* Adjust as necessary */
+  margin-top: 40px;
 }
 
 .contact input[type="text"],
@@ -268,7 +282,7 @@ button:hover{
   font-size: 150%;
   border: solid #0056b3 2px;
   border-radius: 35px; /* Rounded corners */
-  background-color: gainsboro; /* Bootstrap primary blue, you can change it */
+  background-color: white; /* Bootstrap primary blue, you can change it */
   color: black;
   cursor: pointer;
   white-space: nowrap;  /* Prevents the text from wrapping */
@@ -292,7 +306,7 @@ button:hover{
   font-size: 150%;
   border: solid #0056b3 2px;
   border-radius: 35px; /* Rounded corners */
-  background-color: gainsboro; /* Bootstrap primary blue, you can change it */
+  background-color: white; /* Bootstrap primary blue, you can change it */
   color: black;
   cursor: pointer;
   white-space: nowrap;  /* Prevents the text from wrapping */
