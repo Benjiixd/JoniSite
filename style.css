@@ -66,6 +66,8 @@ h3{
     grid-template-columns: 1fr 1fr;
 }
 
+
+
 #page::before {
     content: "";
     grid-area: icon-start / icon-start / welcome2-end / welcome2-end;
@@ -79,6 +81,11 @@ h3{
 #page>nav {
     grid-area: icon;    
     text-align: right;    
+}
+
+#iconid{
+    width: 500px;
+    height:150px;
 }
 
 li a{
@@ -188,6 +195,10 @@ ul{
     align-items: center;
     justify-content: center;
     background-color: white;
+}
+
+.person1 p, .person2 p{
+    font-size: 100%;
 }
 
 .contact {
