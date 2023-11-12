@@ -67,7 +67,7 @@ h3{
         "contact contact"
         "foot1 foot2";
     grid-template-rows: 150px 850px 500px 500px 1000px 700px 600px 600px 600px 150px;
-    grid-template-columns: 300px 300px;
+    grid-template-columns: 400px 400px;
 } 
 
 
