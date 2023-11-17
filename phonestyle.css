@@ -66,7 +66,7 @@ h3{
         "person2 person2"
         "contact contact"
         "foot1 foot2";
-    grid-template-rows: 300px 1600px 1000px 800px 800px 1300px 1200px 1200px 1200px 300px;
+    grid-template-rows: 300px 1600px 1000px 800px 850px 1300px 1200px 1200px 1200px 300px;
     grid-template-columns: 500px 500px;
 } 
 
@@ -195,6 +195,16 @@ ul{
     justify-content: center;
     background-color: white;
     text-align: center;
+    font-size: 150%;
+    
+}
+
+.person1 img, .person2 img{
+    height: 600px;
+}
+
+.person1 p, .person2 p{
+    font-size: 200%;
 }
 
 .person2 {
@@ -226,13 +236,14 @@ ul{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 70%; /* Adjust as necessary */
+  width: 90%; /* Adjust as necessary */
   margin-top: 40px;
 }
 
 .contact input[type="text"],
 .contact textarea {
   width: 90%; /* Adjust the width as needed */
+  height: 100%;
   padding: 10px;
   margin: 10px 0;
   border: 1px solid #ccc;
@@ -240,14 +251,19 @@ ul{
   box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* Slight shadow for depth */
 }
 
+.contact textarea{
+    height: 500%;
+}
+
 .contact input[type="submit"] {
-  padding: 10px 20px;
+  padding: 40px 150px;
   margin-top: 10px;
   border: none;
-  border-radius: 5px; /* Rounded corners */
+  border-radius: 30px; /* Rounded corners */
   background-color: #007BFF; /* Bootstrap primary blue, you can change it */
   color: white;
   text-transform: uppercase;
+  font-size: 150%;
   cursor: pointer;
   transition: background-color 0.3s ease;
   
@@ -278,10 +294,10 @@ ul{
 }
 
 button{
-  padding: 10px 20px;
+  padding: 40px 140px;
   margin-top: 10px;
   border: none;
-  border-radius: 5px; /* Rounded corners */
+  border-radius: 40px; /* Rounded corners */
   background-color: #007BFF; /* Bootstrap primary blue, you can change it */
   color: white;
   cursor: pointer;
@@ -317,16 +333,16 @@ button:hover{
 }
 
 #bookBtn2{
-    padding: 0 px;
+    padding: 0 200px;
     line-height: 25px; 
-    height: 80px;
+    height: 150px;
   margin-top: 10px;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;  
   font-size: 150%;
   border: solid #0056b3 2px;
-  border-radius: 35px; /* Rounded corners */
+  border-radius: 105px; /* Rounded corners */
   background-color: white; /* Bootstrap primary blue, you can change it */
   color: black;
   cursor: pointer;
