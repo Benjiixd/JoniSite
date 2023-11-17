@@ -47,7 +47,7 @@ h3{
 }
 
 .booking1 h2{
-    color:black;
+    color:#07549A;
 }
 
 
@@ -139,7 +139,7 @@ ul{
 }
 
 .deerimg img{
-    height: 120%;
+    height: 150%;
 }
 
 .about1 {
@@ -185,7 +185,7 @@ ul{
 }
 
 .booking1 {
-    background-image: url(Gradient3-1.jpg);
+    background-image: url(GradientPhone.png);
     grid-area: booking1;
     text-align: center;
     background-color: white;
@@ -194,7 +194,7 @@ ul{
 }
 .booking2 {
     grid-area: booking2;
-    background-image: url(Gradient3-2.jpg);
+    background-image: url(GradientPhone.png);
     display: none;
     align-items: center;
     justify-content: center;

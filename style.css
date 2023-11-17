@@ -133,6 +133,10 @@ ul{
     padding-bottom: 100px;
 }
 
+.deerimg img{
+    height: 120%;
+}
+
 .about1 {
     grid-area: about1;
     text-align: right;
@@ -177,6 +181,10 @@ ul{
     align-items: center;
     justify-content: center;
     padding-right: 100px;
+}
+
+.booking2 img{
+    height: 100%;
 }
 
 .person1 {
