@@ -60,13 +60,15 @@ h3{
         "welcome1 welcome1"
         "welcome2 welcome2"
         "about1 about1"
+        "aboutx aboutx"
         "about2 about2"
+        "abouty abouty"
         "booking1 booking1"
         "person1 person1"
         "person2 person2"
         "contact contact"
         "foot1 foot2";
-    grid-template-rows: 300px 1600px 1000px 800px 850px 1300px 1200px 1200px 1200px 300px;
+    grid-template-rows: 300px 1600px 1000px 800px 500px 850px 650px 1300px 1200px 1200px 1800px 300px;
     grid-template-columns: 500px 500px;
 } 
 
@@ -148,10 +150,12 @@ ul{
     width: 100%;
 }
 .aboutx{
-    display: none;
+    grid-area: aboutx;
+    display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
+    padding-top: 50px;
 }
 
 .about2 {
@@ -164,10 +168,20 @@ ul{
 }
 
 .abouty{
-    display: none;
+    grid-area: abouty;
+    display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
+    
+}
+
+.aboutx img{
+    height:900px;
+}
+
+.abouty img{
+    height:600px;
 }
 
 .booking1 {
@@ -228,8 +242,9 @@ ul{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url("Background.jpg");
+    background-image: url("BackgroundPhone.jpg");
     text-align: center;
+    font-size: 150%;
 }
 
 .contact form {
@@ -342,7 +357,7 @@ button:hover{
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;  
-  font-size: 150%;
+  font-size: 220%;
   border: solid #0056b3 2px;
   border-radius: 105px; /* Rounded corners */
   background-color: white; /* Bootstrap primary blue, you can change it */
