@@ -195,7 +195,7 @@ ul{
     justify-content: center;
     background-color: white;
     text-align: center;
-    font-size: 150%;
+
     
 }
 
@@ -204,7 +204,11 @@ ul{
 }
 
 .person1 p, .person2 p{
-    font-size: 200%;
+    font-size: 300%;
+}
+
+.person1 h2, .person2 h2{
+    font-size: 500%;
 }
 
 .person2 {
@@ -217,9 +221,6 @@ ul{
     text-align: center;
 }
 
-.person1 p, .person2 p{
-    font-size: 100%;
-}
 
 .contact {
     grid-area: contact;
@@ -243,7 +244,7 @@ ul{
 .contact input[type="text"],
 .contact textarea {
   width: 90%; /* Adjust the width as needed */
-  height: 100%;
+  height: 200px;
   padding: 10px;
   margin: 10px 0;
   border: 1px solid #ccc;
@@ -252,7 +253,7 @@ ul{
 }
 
 .contact textarea{
-    height: 501%;
+    height: 120%;
 }
 
 .contact input[type="submit"] {
@@ -301,6 +302,7 @@ button{
   background-color: #007BFF; /* Bootstrap primary blue, you can change it */
   color: white;
   cursor: pointer;
+  font-size: 200%;
   transition: background-color 0.3s ease;
 }
 
