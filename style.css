@@ -166,6 +166,10 @@ ul{
     background-color: white;
 }
 
+.abouty img{
+    content: url(bow.png);
+}
+
 .booking1 {
     background-image: url(Gradient3-1.jpg);
     grid-area: booking1;

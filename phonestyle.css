@@ -182,6 +182,7 @@ ul{
     justify-content: center;
     background-color: white;
     
+    
 }
 
 .aboutx img{
@@ -189,7 +190,8 @@ ul{
 }
 
 .abouty img{
-    height:600px;
+    content: url(PBow.png);
+    height: 120%;
 }
 
 .booking1 {
