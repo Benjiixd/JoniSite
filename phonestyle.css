@@ -9,12 +9,13 @@ html, body {
   height: 100%;
 }
 
-p, h1, h2, h3{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+h1, h2, h3{
+    font-family: 'Spectral', serif;
 }
 
 p{
     font-size: 300%;
+    font-family: 'Old Standard TT', serif;
 }
 
 h1{
@@ -31,10 +32,12 @@ h3{
 
 .highlight1{
     color:#07549A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .highlight2{
     color:#46C5F8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .booking1 h3, .booking1 h2, .booking1 p{
     color:white;
@@ -125,10 +128,15 @@ ul{
 
 }
 
-.welcome h1, .welcome h3, .welcome p, .welcome h2{
+.welcome h1, .welcome h3, .welcome h2{
     color:white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Spectral', serif;
    
+}
+
+.welcome p{
+    font-family: 'Old Standard TT', serif;
+   color: white; 
 }
 
 .about1 p{
