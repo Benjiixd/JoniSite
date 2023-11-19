@@ -44,14 +44,16 @@ h3{
     
 }
 
+.booking1 h2{
+    color:#46C5F8;
+}
+
 .booking1 h3{
     font-size: 150%;
     
 }
 
-.booking1 h2{
-    color:black;
-}
+
 #page {
     display: grid;
     width: 100%;
