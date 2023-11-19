@@ -10,7 +10,7 @@ html, body {
 }
 
 h1, h2, h3{
-    font-family: 'Spectral', serif;
+   font-family: 'Permanent Marker', cursive;
 }
 
 p{
@@ -121,7 +121,7 @@ ul{
 
 .welcome h1, .welcome h3, .welcome h2{
     color:white;
-    font-family: 'Spectral', serif;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .welcome p{
@@ -310,7 +310,7 @@ button:hover{
     height: 60px;
   margin-top: 10px;
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Permanent Marker', cursive;
   font-weight: bold;  
   font-size: 150%;
   border: solid #0056b3 2px;
@@ -334,7 +334,7 @@ button:hover{
     height: 80px;
   margin-top: 10px;
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Permanent Marker', cursive;
   font-weight: bold;  
   font-size: 150%;
   border: solid #0056b3 2px;
