@@ -66,11 +66,11 @@ Vi gör en grundlig analys av företagets behov, skräddarsyr därefter marknads
 </p>
   <a href="https://www.linkedin.com/in/joni-gashi-a66786224/"><button>LINKEDIN</button></a></div>
   <div class="contact" id="scroll3">
-    <form>
+    <form action="serverScript.php" method="post">
       <h2 style="color:#07549A;">KONTAKTA OSS</h2><br>
-      <input type="text" placeholder="För- och Efternamn"><br>
-      <input type="text" placeholder="E-mail"><br>
-      <textarea rows="10" cols="50" placeholder="Meddelande" value=""></textarea><br>
+      <input type="text" name="fullname" placeholder="För- och Efternamn" required><br>
+      <input type="text" name="E-mail"placeholder="E-mail" required><br>
+      <textarea rows="10" cols="50" name="message" placeholder="Meddelande" value="" required></textarea><br>
       <input type="submit">
     </form>
   </div>
