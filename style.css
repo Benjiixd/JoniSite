@@ -260,7 +260,7 @@ ul{
     grid-area: foot1;
     display: flex;
     align-items:center;
-    padding-left: 900px;
+    padding-left: 800px;
     justify-content:center;
     background-color: #07549A;
     border-right: solid 1px white;
@@ -338,4 +338,16 @@ button:hover{
 
 #bookBtn2:hover{
     background-color: #0056b3; /* Darker blue on hover */
+}
+
+.brush {
+  background-image: url('Brush.png'); /* Replace with your actual image path */
+  width: 644px;
+  height: 200px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 200%;
+  
 }
