@@ -403,5 +403,7 @@ button:hover{
   font-size: 170%;
 }
 
-
+.footer2 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
