@@ -141,6 +141,7 @@ ul{
     align-items: center;
     justify-content: center;
     padding-bottom: 100px;
+    padding-left: 50px;
 }
 
 .deerimg img{
@@ -198,7 +199,7 @@ ul{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 100px;
+    padding-right: 50px;
 }
 
 .booking2 img{
