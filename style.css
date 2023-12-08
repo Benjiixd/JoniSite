@@ -76,7 +76,7 @@ h3{
 #page::before {
     content: "";
     grid-area: icon-start / icon-start / welcome2-end / welcome2-end;
-    background-image: url('/Gradient.jpg');
+    background-image: url('Gradient.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     z-index: -1;
@@ -176,14 +176,14 @@ ul{
     background-color: white;
 }
 .aboutx img{
-    content: url(/apple.png);
+    content: url(apple.png);
 }
 .abouty img{
-    content: url(/bow.png);
+    content: url(bow.png);
 }
 
 .booking1 {
-    background-image: url(/Gradient3-1.jpg);
+    background-image: url(Gradient3-1.jpg);
     grid-area: booking1;
     padding-top: 180px;
     padding-left: 100px;
@@ -192,7 +192,7 @@ ul{
 }
 .booking2 {
     grid-area: booking2;
-    background-image: url(/Gradient3-2.jpg);
+    background-image: url(Gradient3-2.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -231,7 +231,7 @@ ul{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url("/Background.jpg");
+    background-image: url("Background.jpg");
     text-align: center;
 }
 
@@ -357,7 +357,7 @@ button:hover{
 }
 
 .brush {
-  background-image: url('/Brush.png'); /* Replace with your actual image path */
+  background-image: url('Brush.png'); /* Replace with your actual image path */
   width: 644px;
   height: 200px;
   display: flex;

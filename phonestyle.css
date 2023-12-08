@@ -79,7 +79,7 @@ h3{
 #page::before {
     content: "";
     grid-area: icon-start / icon-start / welcome2-end / welcome2-end;
-    background-image: url('/Gradient.jpg');
+    background-image: url('Gradient.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     z-index: -1;
@@ -194,17 +194,17 @@ ul{
 }
 
 .aboutx img{
-    content: url(/applephone.png);
+    content: url(applephone.png);
     height:900px;
 }
 
 .abouty img{
-    content: url(/PBow.png);
+    content: url(PBow.png);
     height: 120%;
 }
 
 .booking1 {
-    background-image: url(/GradientPhone.png);
+    background-image: url(GradientPhone.png);
     grid-area: booking1;
     text-align: center;
     background-color: white;
@@ -213,7 +213,7 @@ ul{
 }
 .booking2 {
     grid-area: booking2;
-    background-image: url(/GradientPhone.png);
+    background-image: url(GradientPhone.png);
     display: none;
     align-items: center;
     justify-content: center;
@@ -261,7 +261,7 @@ ul{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url("/BackgroundPhone.jpg");
+    background-image: url("BackgroundPhone.jpg");
     text-align: center;
     font-size: 150%;
 }
@@ -396,7 +396,7 @@ button:hover{
 
 .brush {
 
-  background-image: url('/PBrush.png'); /* Replace with your actual image path */
+  background-image: url('PBrush.png'); /* Replace with your actual image path */
   width: 803px;
   height: 249px;
   display: flex;
@@ -405,6 +405,3 @@ button:hover{
   align-items: center;
   font-size: 170%;
 }
-
-
-
