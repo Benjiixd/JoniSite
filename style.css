@@ -32,12 +32,12 @@ h3{
 
 .highlight1{
     color:#07549A;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Mukta', sans-serif;
 }
 
 .highlight2{
     color:#46C5F8;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Mukta', sans-serif;
 }
 .booking1 h3, .booking1 h2, .booking1 p{
     color:white;
@@ -67,7 +67,7 @@ h3{
         "person1 person2"
         "contact contact"
         "foot1 foot2";
-    grid-template-rows: 150px 850px 500px 500px 1000px 700px 600px 150px;
+    grid-template-rows: 150px 850px 500px 500px 1000px 700px 620px 150px;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -175,7 +175,9 @@ ul{
     justify-content: center;
     background-color: white;
 }
-
+.aboutx img{
+    content: url(apple.png);
+}
 .abouty img{
     content: url(bow.png);
 }
@@ -365,4 +367,3 @@ button:hover{
   font-size: 200%;
   
 }
-

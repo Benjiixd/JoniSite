@@ -10,24 +10,24 @@ html, body {
 }
 
 h1, h2, h3{
-    font-family: 'Permanent Marker', cursive;
+   font-family: 'Permanent Marker', cursive;
 }
 
 p{
-    font-size: 300%;
+    font-size: 150%;
     font-family: 'Old Standard TT', serif;
 }
 
 h1{
-    font-size: 450%;
+    font-size: 300%;
 }
 
 h2{
-    font-size: 400%;
+    font-size: 250%;
 }
 
 h3{
-    font-size: 350%;
+    font-size: 200%;
 }
 
 .highlight1{
@@ -44,36 +44,33 @@ h3{
     
 }
 
+.booking1 h2{
+    color:#46C5F8;
+}
+
 .booking1 h3{
-    font-size: 350%;
+    font-size: 150%;
     
 }
 
-.booking1 h2{
-    color:#07549A;
-}
 
-
-   #page {
+#page {
     display: grid;
     width: 100%;
     height: 250px;
     grid-template-areas:
         "icon icon"
-        "welcome1 welcome1"
-        "welcome2 welcome2"
-        "about1 about1"
-        "aboutx aboutx"
-        "about2 about2"
-        "abouty abouty"
-        "booking1 booking1"
-        "person1 person1"
-        "person2 person2"
+        "welcome1 welcome2"
+        "aboutx about1"
+        "about2 abouty "
+        "booking1 booking2"
+        "person1 person2"
         "contact contact"
         "foot1 foot2";
-    grid-template-rows: 300px 1600px 1300px 850px 500px 850px 650px 1300px 1200px 1200px 1800px 300px;
-    grid-template-columns: 500px 500px;
-} 
+    grid-template-rows: 150px 880px 500px 500px 1000px 700px 620px 150px;
+    grid-template-columns: 791px 791px;
+}
+
 
 
 #page::before {
@@ -88,13 +85,12 @@ h3{
 
 #page>nav {
     grid-area: icon;    
-    text-align: right; 
-    font-size: 120%;   
+    text-align: right;    
 }
 
 #iconid{
-    width: 600px;
-    height:200px;
+    width: 500px;
+    height:150px;
 }
 
 li a{
@@ -120,22 +116,18 @@ ul{
 
 .welcome {
     grid-area: welcome1;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-
+    text-align: left;
+    padding-left: 100px;
+    
 }
 
 .welcome h1, .welcome h3, .welcome h2{
     color:white;
     font-family: 'Permanent Marker', cursive;
-   
 }
 
 .welcome p{
-    font-family: 'Old Standard TT', serif;
+   font-family: 'Old Standard TT', serif;
    color: white; 
 }
 
@@ -148,76 +140,70 @@ ul{
     grid-area: welcome2;
     align-items: center;
     justify-content: center;
-    padding-bottom: 250px;
-    
+    padding-bottom: 100px;
+    padding-left: 50px;
 }
 
 .deerimg img{
     height: 120%;
-    padding-top: 430px;
-
 }
 
 .about1 {
     grid-area: about1;
-    text-align: center;
-    padding-top: 60px;
+    text-align: right;
+    padding-right: 100px;
+    padding-top: 85px;
     background-color: white;
-    width: 100%;
 }
 .aboutx{
-    grid-area: aboutx;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
-    padding-top: 50px;
 }
 
 .about2 {
     grid-area: about2;
-    text-align: center;
+    text-align: left;
+    padding-left: 100px;
     padding-top: 85px;
     background-color: white;
-    width:100%;
-    height: 500px;
 }
 
 .abouty{
-    grid-area: abouty;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
-    
-    
 }
 
 .aboutx img{
-    content: url(applephone.png);
-    height:900px;
+    content: url(apple.png);
 }
 
 .abouty img{
-    content: url(PBow.png);
-    height: 120%;
+    content: url(bow.png);
 }
 
 .booking1 {
-    background-image: url(GradientPhone.png);
+    background-image: url(Gradient3-1-1.jpg);
     grid-area: booking1;
-    text-align: center;
+    padding-top: 180px;
+    padding-left: 100px;
     background-color: white;
-    width: 100%;
     
 }
 .booking2 {
     grid-area: booking2;
-    background-image: url(GradientPhone.png);
-    display: none;
+    background-image: url(Gradient3-2-2.jpg);
+    display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 100px;
+    padding-right: 50px;
+}
+
+.booking2 img{
+    height: 100%;
 }
 
 .person1 {
@@ -227,21 +213,6 @@ ul{
     align-items: center;
     justify-content: center;
     background-color: white;
-    text-align: center;
-
-    
-}
-
-.person1 img, .person2 img{
-    height: 600px;
-}
-
-.person1 p, .person2 p{
-    font-size: 300%;
-}
-
-.person1 h2, .person2 h2{
-    font-size: 500%;
 }
 
 .person2 {
@@ -251,9 +222,11 @@ ul{
     align-items: center;
     justify-content: center;
     background-color: white;
-    text-align: center;
 }
 
+.person1 p, .person2 p{
+    font-size: 100%;
+}
 
 .contact {
     grid-area: contact;
@@ -261,9 +234,8 @@ ul{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url("BackgroundPhone.jpg");
+    background-image: url("Background.jpg");
     text-align: center;
-    font-size: 150%;
 }
 
 .contact form {
@@ -271,14 +243,13 @@ ul{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 90%; /* Adjust as necessary */
+  width: 70%; /* Adjust as necessary */
   margin-top: 40px;
 }
 
 .contact input[type="text"],
 .contact textarea {
   width: 90%; /* Adjust the width as needed */
-  height: 200px;
   padding: 10px;
   margin: 10px 0;
   border: 1px solid #ccc;
@@ -286,19 +257,14 @@ ul{
   box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* Slight shadow for depth */
 }
 
-.contact textarea{
-    height: 120%;
-}
-
 .contact input[type="submit"] {
-  padding: 40px 150px;
+  padding: 10px 20px;
   margin-top: 10px;
   border: none;
-  border-radius: 30px; /* Rounded corners */
+  border-radius: 5px; /* Rounded corners */
   background-color: #007BFF; /* Bootstrap primary blue, you can change it */
   color: white;
   text-transform: uppercase;
-  font-size: 150%;
   cursor: pointer;
   transition: background-color 0.3s ease;
   
@@ -313,11 +279,13 @@ ul{
     grid-area: foot1;
     display: flex;
     align-items:center;
-    padding-left: 400px;
+    padding-left: 700px;
     justify-content:center;
     background-color: #07549A;
     border-right: solid 1px white;
 }
+
+
 .footer2 {
     grid-area: foot2;
     background-color: #07549A;
@@ -329,14 +297,13 @@ ul{
 }
 
 button{
-  padding: 40px 140px;
+  padding: 10px 20px;
   margin-top: 10px;
   border: none;
-  border-radius: 40px; /* Rounded corners */
+  border-radius: 5px; /* Rounded corners */
   background-color: #007BFF; /* Bootstrap primary blue, you can change it */
   color: white;
   cursor: pointer;
-  font-size: 200%;
   transition: background-color 0.3s ease;
 }
 
@@ -344,19 +311,17 @@ button:hover{
     background-color: #0056b3; /* Darker blue on hover */
 }
 
-/*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
-
 #bookBtn1{
-    padding: 0 300px;
+    padding: 0 90px;
     line-height: 25px; 
-    height: 200px;
+    height: 60px;
   margin-top: 10px;
   text-align: center;
   font-family: 'Permanent Marker', cursive;
   font-weight: bold;  
-  font-size: 300%;
+  font-size: 150%;
   border: solid #0056b3 2px;
-  border-radius: 105px; /* Rounded corners */
+  border-radius: 35px; /* Rounded corners */
   background-color: white; /* Bootstrap primary blue, you can change it */
   color: black;
   cursor: pointer;
@@ -371,16 +336,16 @@ button:hover{
 }
 
 #bookBtn2{
-    padding: 0 200px;
+    padding: 0 150px;
     line-height: 25px; 
-    height: 150px;
+    height: 80px;
   margin-top: 10px;
   text-align: center;
   font-family: 'Permanent Marker', cursive;
   font-weight: bold;  
-  font-size: 220%;
+  font-size: 150%;
   border: solid #0056b3 2px;
-  border-radius: 105px; /* Rounded corners */
+  border-radius: 35px; /* Rounded corners */
   background-color: white; /* Bootstrap primary blue, you can change it */
   color: black;
   cursor: pointer;
@@ -395,16 +360,13 @@ button:hover{
 }
 
 .brush {
-
-  background-image: url('PBrush.png'); /* Replace with your actual image path */
-  width: 803px;
-  height: 249px;
+  background-image: url('Brush.png'); /* Replace with your actual image path */
+  width: 644px;
+  height: 200px;
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
-  font-size: 170%;
+  font-size: 200%;
+  
 }
-
-
-
