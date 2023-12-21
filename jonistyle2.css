@@ -1,0 +1,375 @@
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+h1, h2, h3{
+   font-family: 'Permanent Marker', cursive;
+}
+
+p{
+    font-size: 150%;
+    font-family: 'Old Standard TT', serif;
+}
+
+h1{
+    font-size: 300%;
+}
+
+h2{
+    font-size: 250%;
+}
+
+h3{
+    font-size: 200%;
+}
+
+.highlight1{
+    color:#07549A;
+    font-family: 'Mukta', sans-serif;
+}
+
+.highlight2{
+    color:#46C5F8;
+    font-family: 'Mukta', sans-serif;
+}
+.booking1 h3, .booking1 h2, .booking1 p{
+    color:white;
+    
+}
+
+.booking1 h2{
+    color:#46C5F8;
+}
+
+.booking1 h3{
+    font-size: 150%;
+    
+}
+
+
+#page {
+    display: grid;
+    width: 100%;
+    height: 250px;
+    grid-template-areas:
+        "icon icon"
+        "welcome1 welcome2"
+        "aboutx about1"
+        "about2 abouty "
+        "booking1 booking2"
+        "person1 person2"
+        "contact contact"
+        "foot1 foot2";
+    grid-template-rows: 150px 1000px 500px 500px 1000px 700px 620px 150px;
+    grid-template-columns: 640px 640px;
+}
+
+
+
+#page::before {
+    content: "";
+    grid-area: icon-start / icon-start / welcome2-end / welcome2-end;
+    background-image: url('Gradient.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    /* ensures the background is beneath your grid items */
+}
+
+
+
+#page>nav {
+    grid-area: icon;    
+    text-align: right;
+    padding-right: 100px;    
+}
+
+#iconid{
+    width: 500px;
+    height:150px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 200%;
+    font-family: 'Permanent Marker', cursive;
+    padding-right: 10px;
+}
+
+li{
+    display: inline;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.icon {
+    grid-area: icon;
+    
+}
+
+.welcome {
+    grid-area: welcome1;
+    text-align: left;
+    padding-left: 100px;
+    
+}
+
+.welcome h1, .welcome h3, .welcome h2{
+    color:white;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.welcome p{
+   font-family: 'Old Standard TT', serif;
+   color: white; 
+}
+
+.about1 p{
+    color:black
+}
+
+.deerimg{
+    display: flex;
+    grid-area: welcome2;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+
+.deerimg img{
+    height: 90%;
+}
+
+.about1 {
+    grid-area: about1;
+    text-align: right;
+    padding-right: 130px;
+    padding-top: 85px;
+    background-color: white;
+}
+.aboutx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.about2 {
+    grid-area: about2;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 85px;
+    background-color: white;
+}
+
+.abouty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.aboutx img{
+    content: url(apple.png);
+}
+
+.abouty img{
+    content: url(bow.png);
+}
+
+.booking1 {
+    background-image: url(Gradient3-1-1.jpg);
+    grid-area: booking1;
+    padding-top: 180px;
+    padding-left: 100px;
+    background-color: white;
+    
+}
+.booking2 {
+    grid-area: booking2;
+    background-image: url(Gradient3-2-2.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 50px;
+}
+
+.booking2 img{
+    height: 90%;
+}
+
+.person1 {
+    display: flex;
+    flex-direction: column;
+    grid-area: person1;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.person2 {
+    display: flex;
+    flex-direction: column;
+    grid-area: person2;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.person1 p, .person2 p{
+    font-size: 100%;
+}
+
+.contact {
+    grid-area: contact;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("Background.jpg");
+    text-align: center;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%; /* Adjust as necessary */
+  margin-top: 40px;
+}
+
+.contact input[type="text"],
+.contact textarea {
+  width: 90%; /* Adjust the width as needed */
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* Slight shadow for depth */
+}
+
+.contact input[type="submit"] {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  background-color: #007BFF; /* Bootstrap primary blue, you can change it */
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
+.contact input[type="submit"]:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+.footer1 {
+    grid-area: foot1;
+    display: flex;
+    align-items:center;
+    padding-left: 550px;
+    justify-content:center;
+    background-color: #07549A;
+    border-right: solid 1px white;
+}
+
+
+.footer2 {
+    grid-area: foot2;
+    background-color: #07549A;
+    border-left: solid 1px white;
+    font-size: 10px;
+    
+    padding-left: 10px;
+    color:white;
+}
+
+button{
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  background-color: #007BFF; /* Bootstrap primary blue, you can change it */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+#bookBtn1{
+    padding: 0 90px;
+    line-height: 25px; 
+    height: 60px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: bold;  
+  font-size: 150%;
+  border: solid #0056b3 2px;
+  border-radius: 35px; /* Rounded corners */
+  background-color: white; /* Bootstrap primary blue, you can change it */
+  color: black;
+  cursor: pointer;
+  white-space: nowrap;  /* Prevents the text from wrapping */
+  overflow: hidden;     /* Ensures that the text doesn't overflow the button boundaries */
+  text-overflow: ellipsis; /* Adds an ellipsis if the text is too long to fit */
+  transition: background-color 0.3s ease;
+}
+
+#bookBtn1:hover{
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+#bookBtn2{
+    padding: 0 100px;
+    line-height: 25px; 
+    height: 80px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: bold;  
+  font-size: 150%;
+  border: solid #0056b3 2px;
+  border-radius: 35px; /* Rounded corners */
+  background-color: white; /* Bootstrap primary blue, you can change it */
+  color: black;
+  cursor: pointer;
+  white-space: nowrap;  /* Prevents the text from wrapping */
+  overflow: hidden;     /* Ensures that the text doesn't overflow the button boundaries */
+  text-overflow: ellipsis; /* Adds an ellipsis if the text is too long to fit */
+  transition: background-color 0.3s ease;
+}
+
+#bookBtn2:hover{
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.brush {
+  background-image: url('Brush.png'); /* Replace with your actual image path */
+  width: 644px;
+  height: 200px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 200%;
+  
+}
