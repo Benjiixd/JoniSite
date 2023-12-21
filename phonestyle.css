@@ -313,10 +313,14 @@ ul{
     grid-area: foot1;
     display: flex;
     align-items:center;
-    padding-left: 400px;
+    padding-left: 20px;
     justify-content:center;
     background-color: #07549A;
     border-right: solid 1px white;
+}
+
+.footer1 img{
+    height: 200px;
 }
 .footer2 {
     grid-area: foot2;

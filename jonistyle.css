@@ -280,7 +280,7 @@ ul{
     grid-area: foot1;
     display: flex;
     align-items:center;
-    padding-left: 600px;
+    padding-left: 500px;
     justify-content:center;
     background-color: #07549A;
     border-right: solid 1px white;
