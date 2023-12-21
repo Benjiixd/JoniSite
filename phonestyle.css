@@ -313,7 +313,7 @@ ul{
     grid-area: foot1;
     display: flex;
     align-items:center;
-    padding-left: 20px;
+    padding-left: 0px;
     justify-content:center;
     background-color: #07549A;
     border-right: solid 1px white;
@@ -408,4 +408,8 @@ button:hover{
   justify-content: center;
   align-items: center;
   font-size: 170%;
+}
+
+#trustlogo{
+    height: 155px;
 }
