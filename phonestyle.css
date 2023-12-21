@@ -413,3 +413,8 @@ button:hover{
 #trustlogo{
     height: 155px;
 }
+
+#phonelogo{
+    height:240px;
+    content: url(iconbackp.png);
+}
