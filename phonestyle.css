@@ -153,7 +153,7 @@ ul{
 }
 
 .deerimg img{
-    height: 120%;
+    height: 100%;
     padding-top: 430px;
 
 }
@@ -377,7 +377,7 @@ button:hover{
 #bookBtn2{
     padding: 0 200px;
     line-height: 25px; 
-    height: 150px;
+    height: 100px;
   margin-top: 10px;
   text-align: center;
   font-family: 'Permanent Marker', cursive;
@@ -415,6 +415,6 @@ button:hover{
 }
 
 #phonelogo{
-    height:240px;
+    height:220px;
     content: url(iconbackp.png);
 }
